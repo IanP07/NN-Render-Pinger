@@ -1,6 +1,7 @@
 name: Parallel Ping Render Backend
 
 on:
+  workflow_dispatch:  # Allows action to manually be run
   schedule:
     - cron: "*/5 * * * *"  # Runs every 5 minutes
 
